@@ -1,5 +1,9 @@
 # react-learning
 
+# Apps Develop in this course
+
+https://jsandino-gif-expert-app.netlify.app/
+
 
 ## Commands
 
@@ -28,6 +32,8 @@ sudo chown -R $(whoami) /Users/josuesandino/Documents/Code/react-learning/git-ex
 
 -- Deploy Apps in Github Pages
 
+https://www.udemy.com/course/react-cero-experto/learn/lecture/19762390#overview
+
 https://app.netlify.com/sites/
 
 -- Github
@@ -38,3 +44,6 @@ git add .
 
 git commit -m "Primer commit"
 
+
+
+Seccion 9
