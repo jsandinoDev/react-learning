@@ -13,20 +13,23 @@ import { MemoHook } from './06-memos/MemoHook'
 import { CallBackHook } from './06-memos/CallBackHook'
 import { Padre } from './07-tarea-memo/Padre'
 
-createRoot(document.getElementById('root')).render(
-  <>
-    {/* <HooksApp /> */}
-    {/* <CounterApp /> */}
-    {/* <CounterWithCustomHooks /> */}
-    {/* <SimpleForm /> */}
-    {/* <FormWithCustomHook /> */}
-    {/* <MultipleCustomHooks /> */}
-    {/* <FocusScreen /> */}
-    {/* <Memorize /> */}
-    {/* <MemoHook /> */}
-    {/* <CallBackHook /> */}
-    <Padre />
+
+import './08-useReducer/intro-reducer.js'
+
+// createRoot(document.getElementById('root')).render(
+//   <>
+//     {/* <HooksApp /> */}
+//     {/* <CounterApp /> */}
+//     {/* <CounterWithCustomHooks /> */}
+//     {/* <SimpleForm /> */}
+//     {/* <FormWithCustomHook /> */}
+//     {/* <MultipleCustomHooks /> */}
+//     {/* <FocusScreen /> */}
+//     {/* <Memorize /> */}
+//     {/* <MemoHook /> */}
+//     {/* <CallBackHook /> */}
+//     <Padre />
     
     
-  </>,
-)
+//   </>,
+// )
