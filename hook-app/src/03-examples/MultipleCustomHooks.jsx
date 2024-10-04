@@ -8,11 +8,6 @@ export const MultipleCustomHooks = () => {
 
     const { data, hasError, isLoading } = useFetch(`https://pokeapi.co/api/v2/pokemon/${counter}`);
 
-    const pokemon = {
-        id: data?.id,
-        name: data?.name,
-        sprites: null,
-    }
     return (
         <>
 

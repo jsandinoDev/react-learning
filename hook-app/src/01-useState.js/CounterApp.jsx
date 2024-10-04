@@ -3,7 +3,7 @@ import { useState } from "react"
 export const CounterApp = () => {
 
 
-    const [state, setCounter] = useState({
+    const [state, setCounter] = useState({ //init state
         counter1: 10,
         counter2: 20,
         counter3: 30,
