@@ -1,10 +1,17 @@
 import { Link } from "react-router-dom";
 
-export const HeroCard = ({ hero }) => {
+export const HeroCard = ({ 
+        id,
+        superhero,
+        publisher,
+        alter_ego,
+        first_appearance,
+        characters
+        }) => {
 
-    const heroURLImage = `/assets/${hero.id}.jpg`;
+    const heroURLImage = `/assets/${id}.jpg`;
 
-    const charactersByHero = (<p> {hero.characters}</p>)
+    const charactersByHero = (<p> {characters}</p>)
 
     return (
         <div className="col animate__animated animate__fadeIn">
@@ -12,26 +19,26 @@ export const HeroCard = ({ hero }) => {
             <div className="card">
                 <div className="row no-gutters">
                     <div className="col-4">
-                        <img src={heroURLImage} className="card-img" alt={hero.superhero} />
+                        <img src={heroURLImage} className="card-img" alt={superhero} />
                     </div>
 
 
                     <div className="col-8">
                         <div className="card-body">
-                            <h5 className="card-title">{hero.superhero}</h5>
-                            <p className="card-text">{hero.alter_ego}</p>
+                            <h5 className="card-title">{superhero}</h5>
+                            <p className="card-text">{alter_ego}</p>
 
                             {/* dificil de leer */}
                             {
-                                (hero.alter_ego !== hero.characters) && charactersByHero
+                                (alter_ego !== characters) && charactersByHero
                             }
 
                             <p className="card-text">
-                                <small className="text-muted"> {hero.first_appearance}</small>
+                                <small className="text-muted"> {first_appearance}</small>
                             </p>
 
 
-                            <Link to={`/hero/${hero.id}`}>
+                            <Link to={`/hero/${id}`}>
                                 Mas ..
                             </Link>
 
@@ -44,8 +51,8 @@ export const HeroCard = ({ hero }) => {
 
             </div>
 
-            {/* <li key={hero.id}>
-                {hero.superhero}
+            {/* <li key={id}>
+                {superhero}
             </li> */}
 
         </div>

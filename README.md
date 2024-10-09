@@ -47,3 +47,6 @@ git commit -m "Primer commit"
 
 
 Seccion 9
+
+
+yarn add query-string
