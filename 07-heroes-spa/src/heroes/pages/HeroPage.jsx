@@ -22,7 +22,7 @@ export const HeroPage = () => {
         return <Navigate to="/marvel" />
     }
 
-    const heroURLImage = `/assets/${hero.id}.jpg`;
+    const heroURLImage = `/heroes/${hero.id}.jpg`;
 
     return (
         <>
