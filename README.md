@@ -51,3 +51,7 @@ Seccion 9
 
 
 yarn add query-string
+
+## React router
+
+yarn add react-router-dom@6
