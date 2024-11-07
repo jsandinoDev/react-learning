@@ -14,9 +14,9 @@ export const AuthLayout = ({ children, title = '' }) => {
             <Grid2
                 className="box-shadow"
                 size={{ xs: 4, sm: 4, md: 6 }}
-                sx={{ 
-                    width: {sm: '450px'},
-                    backgroundColor: "white", padding: 2, borderRadius: 2 
+                sx={{
+                    width: { sm: '450px' },
+                    backgroundColor: "white", padding: 2, borderRadius: 2
                 }}
             >
                 <Typography variant="h5" sx={{ mb: 1 }}>

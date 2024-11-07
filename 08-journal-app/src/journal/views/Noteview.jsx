@@ -1,11 +1,12 @@
-import { Padding, SaveOutlined } from "@mui/icons-material"
+import { SaveOutlined } from "@mui/icons-material"
 import { Button, Grid2, TextField, Typography } from "@mui/material"
-import { light } from "@mui/material/styles/createPalette"
 import { ImageGallery } from "../components"
 
 export const Noteview = () => {
     return (
-        <Grid2 container direction='column' justifyContent='flex-start' alignItems='stretch' spacing={2} sx={{ mb: 1 }}>
+        <Grid2
+            className='animate__animated animate__fadeIn animate__faster'
+            container direction='column' justifyContent='flex-start' alignItems='stretch' spacing={2} sx={{ mb: 1 }}>
 
             {/* Top row: Date and Save Button */}
             <Grid2
