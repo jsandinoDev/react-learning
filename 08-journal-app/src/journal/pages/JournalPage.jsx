@@ -24,7 +24,6 @@ export const JournalPage = () => {
                 ? <Noteview /> 
                 : <NothingSelectedView />
             }
-            <Noteview />
 
             <IconButton
                 size='large'
