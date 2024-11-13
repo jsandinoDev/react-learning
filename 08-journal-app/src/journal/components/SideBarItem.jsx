@@ -1,26 +1,33 @@
 import { TurnedInNot } from '@mui/icons-material'
-import { Grid2, ListItem, ListItemButton, ListItemIcon, ListItemText } from '@mui/material'
+import { Grid2, ListItem, ListItemButton, ListItemIcon, ListItemText, Stack } from '@mui/material'
 import { useMemo } from 'react'
+import { setActiveNote } from '../../store/journal/journalSlice'
+import { useDispatch } from 'react-redux'
 
 
-export const SideBarItem = ({note}) => {
+export const SideBarItem = ({ title = '', body, id, date,imageUrls =[] }) => {
 
-    const newTitle = useMemo( () => {
-        return note.title.length > 17
-        ? note.title.substring(0,17) + '...'
-        : note.title
-    }, [note.title])
-    
+    const dispatch = useDispatch();
+
+    const onClickNote = () => {
+        dispatch(setActiveNote({title, body, id, date, imageUrls}))
+    }
+    const newTitle = useMemo(() => {
+        return title.length > 17
+            ? title.substring(0, 17) + '...'
+            : title
+    }, [title])
+
     return (
-        <ListItem  disablePadding>
-            <ListItemButton >
+        <ListItem disablePadding>
+            <ListItemButton onClick={onClickNote}>
                 <ListItemIcon >
                     <TurnedInNot />
                 </ListItemIcon>
-                <Grid2 container>
-                    <ListItemText primary={note.title} />
-                    <ListItemText secondary={note.body} />
-                </Grid2>
+                <Stack direction="column">
+                    <ListItemText primary={title} />
+                    <ListItemText secondary={body} />
+                </Stack>
 
             </ListItemButton>
         </ListItem>
