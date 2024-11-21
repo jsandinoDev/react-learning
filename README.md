@@ -70,3 +70,25 @@ yarn add query-string
 ## React router
 
 yarn add react-router-dom@6
+
+
+
+## Node
+Create package.json
+npm init -y
+
+npm i nodemon -g
+
+npm i express
+
+express-validator
+
+dotenv
+
+mongoose
+
+bcryptjs
+
+jsonwebtoken
+
+cors
