@@ -1,3 +1,9 @@
+/**
+ * USER ROUTES
+ * host + /api/auth
+ */
+
+
 const { Router } = require('express');
 const { check } = require('express-validator')
 const { createUser, loginUser, renewToken } = require('../controllers/auth');
