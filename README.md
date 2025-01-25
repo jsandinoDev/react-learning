@@ -1,6 +1,6 @@
 # React-learning 💻🚀
 
-# Apps Develop in this course
+## Projects in this repo
 
 [Gif Expert App](https://jsandino-gif-expert-app.netlify.app/)
 GIF Expert is a search-based app that allows users to quickly find and view a selection of GIFs based on specific keywords. It’s designed for anyone looking to add a visual, fun, or emotional touch to their online communications, providing an engaging way to discover and interact with GIF content.
