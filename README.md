@@ -7,7 +7,7 @@ GIF Expert is a search-based app that allows users to quickly find and view a se
 - Learnings:
    - Introduction to hooks & fetch data
 
-[Hero App](https://hero-app-jsandino.netlify.app/)
+[Hero App](https://chipper-peony-4309c3.netlify.app/)
 Hero App is an interactive resource for comic book fans, enabling them to search and explore detailed profiles of heroes from the Marvel and DC universes. It’s designed to provide easy access to character information, catering to both new fans looking to learn and long-time enthusiasts seeking a deeper dive into the comic lore.
 - Learnings: 
     - SPA
@@ -22,7 +22,7 @@ Journal App is a personal note-taking application designed for users who want to
     - Cloudinary 
 
 
-[Calender App](https://calendar-backend-0ce9.up.railway.app/auth/login)
+[Calendar App](https://calendar-backend-0ce9.up.railway.app/auth/login)
 Calendar App is a scheduling and event management tool built for users who want to organize their activities efficiently. With features like user authentication and seamless data storage, it provides an intuitive platform for creating, viewing, and managing events in a centralized calendar interface.
 
 - Learning:
